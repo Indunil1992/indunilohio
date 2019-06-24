@@ -58,7 +58,7 @@
           "resourcePath": "/test/sachi",
           "restMethod": "GET",
           "proxyIntegration": false,
-          "enableCORS": false,
+          "enableCORS": true,
           "stageMode": 0,
           "stageName": "test",
           "mode": 0
@@ -90,7 +90,7 @@
     "projectRegion": "us-east-2",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1561371613820
+    "lastSave": 1561371891854
   },
   "VCS_STATE": {
     "provider": "GitHub",
