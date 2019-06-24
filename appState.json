@@ -1,0 +1,102 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d96669db-6593-4668-a5db-a62df65b53a7": {
+        "id": "d96669db-6593-4668-a5db-a62df65b53a7",
+        "parent": null,
+        "name": "indunilohio",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "db1eb52c-6a8b-47c4-9c50-b72970b4995a"
+        ],
+        "isRemovable": false,
+        "filePath": "indunilohio"
+      },
+      "db1eb52c-6a8b-47c4-9c50-b72970b4995a": {
+        "id": "db1eb52c-6a8b-47c4-9c50-b72970b4995a",
+        "parent": "d96669db-6593-4668-a5db-a62df65b53a7",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunilohio/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2checktestsachiget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "d96669db-6593-4668-a5db-a62df65b53a7",
+    "openFiles": [
+      "db1eb52c-6a8b-47c4-9c50-b72970b4995a"
+    ],
+    "currentFileId": "db1eb52c-6a8b-47c4-9c50-b72970b4995a",
+    "resources": {
+      "apigusEast2checktestsachiget": {
+        "name": "apigusEast2checktestsachiget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 0,
+          "apiName": "check",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test/sachi",
+          "resourcePath": "/test/sachi",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "indunilohio",
+    "projectDescription": "indunilohio",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1561371613820
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunilohio",
+      "url": "https://github.com/Indunil1992/indunilohio"
+    }
+  }
+}
